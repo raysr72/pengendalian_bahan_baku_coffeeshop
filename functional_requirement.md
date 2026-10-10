@@ -1,6 +1,8 @@
 # Functional Requirement
 
 | ID | MODUL / FITUR | PERILAKU SISTEM |
+| :--- | :--- | :--- |
+
 | FR-01 | Autentikasi Login | Sistem harus menyediakan halaman login yang memvalidasi username, password, dan level user (Superadmin, Admin, Petugas) sebelum memberikan akses ke dashboard. |
 | FR-02 | Manajemen Pengguna | Superadmin dapat mengelola data pengguna (menambah/verifikasi data Admin dan Petugas). |
 | FR-03 | Manajemen Data Master | Admin dapat melakukan input, update, dan melihat data master yang terdiri dari: Data Supplier, Data Bahan Baku, Kategori Bahan, dan Satuan Bahan. |
@@ -12,6 +14,8 @@
 # Non-Functional Requirement
 
 | KATEGORI | PARAMETER KEBUTUH NON-FUNGSIONAL |
+| :--- | :--- |
+
 | Usability (Kegunaan) | Antarmuka (interface) sistem harus intuitif, mudah digunakan (user-friendly) oleh staf Antarmuka (interface) sistem harus intuitif, mudah digunakan (user-friendly) oleh staf operasional kafe tanpa memerlukan pelatihan teknis yang rumit. |
 | Performance (Performa) | Sistem berbasis web harus dapat merespons navigasi menu dan pemrosesan data (seperti simpan transaksi atau unduh laporan) secara instan tanpa jeda yang signifikan dalam kondisi jaringan standar. |
 | Security (Keamanan) | Akses berbasis peran (Role-Based Access Control / RBAC) yang ketat; halaman Superadmin, Admin, dan Petugas terisolasi sesuai hak aksesnya <br>  Mencegah akses halaman tanpa proses autentikasi login yang valid. |
